@@ -2,13 +2,8 @@
 title: Hello World
 date: 2026-02-04T04:07:53.310Z
 tags:
-  - hello
-  - FixIt
 categories:
-  - hello
-  - hello/start
-collections: test
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+collections:
 ---
 
 Welcome to Hugo FixIt! This is your very first post.

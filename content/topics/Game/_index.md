@@ -1,7 +1,7 @@
 ---
-title: 更多
-layout: "taxonomy"
+title: Game
 cascade:
   params:
     type: posts
+description:
 ---

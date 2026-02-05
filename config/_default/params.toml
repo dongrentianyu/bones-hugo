@@ -26,15 +26,16 @@ externalIcon = true
 capitalizeTitles = true
 # FixIt 0.3.0 | NEW whether to add site title to the title of every page
 # remember to set up your site title in `hugo.toml` (e.g. title = "title")
+# 这个设置就是可以让文章标题显示在tab标签页上
 withSiteTitle = true
 # FixIt 0.3.0 | NEW title delimiter when the site title is be added to the title of every page
 # 这个设置就是topic-game那一块，理论上来说没必要加上这个短横线
-titleDelimiter = " "
+titleDelimiter = "|"
 # FixIt 0.3.0 | NEW whether to add site subtitle to the title of index page
 # remember to set up your site subtitle by `params.header.subtitle.name`
 indexWithSubtitle = false
 # FixIt 0.3.13 | NEW whether to show summary in plain text
-summaryPlainify = false
+summaryPlainify = true
 # FixIt 0.4.0 | NEW whether to enable merging missing translations from other languages
 # when set to true, missing translations from other languages will be merged and displayed
 # default is false for better performance, especially for single-language sites
@@ -155,9 +156,9 @@ typeit = false
 # FixIt 0.2.12 | NEW Header subtitle config
 [header.subtitle]
 # subtitle name
-name = ""
+name = "活在别样的生活里"
 # whether to use typeit animation for subtitle name
-typeit = false
+typeit = true
 
 # FixIt 0.2.18 | NEW Breadcrumb config
 [breadcrumb]
@@ -176,8 +177,9 @@ inSection = false
 reverse = false
 
 # Footer config
+# 先关闭，后面再看是否需要打开，虽然我觉得没什么太大的用处，除了表示这是由hugo和fixit组合搭建的之外
 [footer]
-enable = true
+enable = false
 # whether to show copyright info
 copyright = true
 # whether to show the author
@@ -214,17 +216,18 @@ statistics = 0
 visitor = 0
 beian = 0
 
+# beian是备案的意思
 # FixIt 0.3.0 | NEW Archives page config (all pages of posts type)
 [archives]
 # special amount of posts in archives page
-paginate = 20
+paginate = 10
 # date format (month and day)
 dateFormat = "01-02"
 
 # Section page config (all pages in section)
 [section]
 # special amount of pages in each section page
-paginate = 20
+paginate = 10
 # date format (month and day)
 dateFormat = "01-02"
 
@@ -238,7 +241,7 @@ fullText = false
 # Term list (category or tag) page config
 [list]
 # special amount of posts in each list page
-paginate = 20
+paginate = 10
 # date format (month and day)
 dateFormat = "01-02"
 
@@ -255,7 +258,7 @@ archives = true
 section = true
 list = true
 days = 30
-maxCount = 10
+maxCount = 5
 
 # FixIt 0.2.17 | NEW TagCloud config for tags page
 [tagcloud]
@@ -278,23 +281,24 @@ gravatarEmail = ""
 # URL of avatar shown in home page, default is author's avatar
 avatarURL = ""
 # FixIt 0.2.17 | NEW identifier of avatar menu link
-avatarMenu = "tags"
+avatarMenu = ""
 # title shown in home page (HTML format is supported)
 title = "Bones"
 # subtitle shown in home page (HTML format is supported)
-subtitle = "我是天空 降下对我的惩罚 你遗传给我的疾病 在风中弑杀我的黑夜"
+subtitle = "一世风尘，也只如雪泥打他人脚底经过"
 # whether to use typeit animation for subtitle
 typeit = true
 # whether to show social links
 social = true
 # disclaimer (HTML format is supported)
+# 免责声明，可以在主页下面显示一行小字，但看起来似乎也没必要
 disclaimer = ""
 
 # Home page posts
 [home.posts]
 enable = true
 # special amount of posts in each home posts page
-paginate = 6
+paginate = 5
 
 # FixIt 0.2.16 | CHANGED Social config about the author
 [social]
@@ -607,6 +611,7 @@ enable = true
 scrollpercent = true
 
 # FixIt 0.2.16 | NEW Reading progress bar
+# 这个看后面是否真的需要吧，看情况调整，虽然我觉得有个进度条确实是不错
 [readingProgress]
 enable = true
 # Available values: ["left", "right"]
@@ -614,9 +619,9 @@ start = "left"
 # Available values: ["top", "bottom"]
 position = "top"
 reversed = false
-light = ""
+light = "black"
 dark = ""
-height = "2px"
+height = "3px"
 
 # FixIt 0.2.17 | NEW Progress bar in the top during page loading.
 # For more information: https://github.com/CodeByZach/pace
@@ -759,7 +764,7 @@ ignoreList = []
 head = []
 menuDesktop = []
 menuMobile = []
-profile = []
+profile = ["custom/profile.html" ]
 aside = []
 comment = []
 footer = []
@@ -834,14 +839,14 @@ wordCount = true
 # FixIt 0.2.17 | NEW whether to enable readingTime
 readingTime = true
 # FixIt 0.2.17 | NEW end of post flag
-endFlag = ""
+endFlag = "------------ The End ------------"
 # FixIt 0.2.18 | NEW whether to enable instant.page
 # todo 这个还不清楚是啥意思，可能是加上提交代码链接，但感觉没必要
 instantPage = false
 # FixIt 0.3.0 | NEW whether to enable collection list at the sidebar
 collectionList = true
 # FixIt 0.3.0 | NEW whether to enable collection navigation at the end of the post
-# 这个就不需要了，不然太占空间了
+# 这个就不需要了，不然太占空间了，但对于移动端这个配置应该还是需要的
 collectionNavigation = false
 
 # FixIt 0.2.15 | NEW Repost config 转载配置
@@ -980,12 +985,11 @@ fullscreen = true
 
 # FixIt 0.3.0 | NEW Related content config (https://gohugo.io/content-management/related/)
 [page.related]
-enable = false
+enable = true
 count = 5
 # FixIt 0.3.20 | NEW position of related content, optional values: ["aside", "footer"]
 position = [
-  "aside",
-  "footer"
+  "aside"
 ]
 
 # FixIt 0.2.17 | NEW Donate (Sponsor) settings

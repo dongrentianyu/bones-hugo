@@ -4,7 +4,8 @@
 # -------------------------------------------------------------------------------------
 
 # website title
-title = "Bones"
+# title = "Bones"
+title = "title"
 # Hostname (and path) to the root
 baseURL = "https://example.org/"
 # theme list

@@ -1,7 +1,7 @@
 ---
-title: 更多
-layout: "taxonomy"
+title: 人物
 cascade:
   params:
     type: posts
+description:
 ---

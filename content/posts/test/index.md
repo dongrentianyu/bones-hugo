@@ -1,17 +1,13 @@
 ---
 weight: 1
 title: test
-featuredImage: "images/image.png"
-featuredImagePreview: "images/image.png"
+resources:
+  - name: featured-image
+    src: featured-image.png
 date: 2026-02-02
 tags:
-  - hello
-  - FixIt
 categories:
-  - hello
 collections:
-  - test
-  - 你好
 lightgallery: true
 ---
 
