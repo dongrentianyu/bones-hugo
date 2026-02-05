@@ -25,7 +25,7 @@ name = "Archives"
 url = "/archives/"
 # title will be shown when you hover on this menu link
 title = ""
-weight = 1
+weight = 5
 
 # FixIt 0.2.14 | NEW add user-defined content to menu items
 [main.params]
@@ -87,7 +87,7 @@ post = ""
 name = "Collections"
 url = "/collections/"
 title = ""
-weight = 5
+weight = 1
 [main.params]
 icon = "fa-solid fa-grip"
 

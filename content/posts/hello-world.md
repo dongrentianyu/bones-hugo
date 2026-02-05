@@ -6,6 +6,7 @@ tags:
   - FixIt
 categories:
   - hello
+  - hello/start
 collections: test
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---

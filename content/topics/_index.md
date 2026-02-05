@@ -1,7 +1,8 @@
 ---
 title: 专题
+layout: "taxonomy"
 cascade:
   params:
     type: posts
-layout: "taxonomy"
+description: 这是专题
 ---

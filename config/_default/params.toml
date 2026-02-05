@@ -114,7 +114,7 @@ location = 0
 threshold = 0.3
 distance = 100
 ignoreLocation = false
-useExtendedSearch = false
+useExtendedSearch = true
 ignoreFieldNorm = false
 
 # FixIt 0.3.16 | NEW Custom Search Engine (CSE)
