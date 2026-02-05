@@ -10,7 +10,7 @@ pre = ""
 post = ""
 name = "Classification"
 title = "分类"
-weight = 1
+weight = 2
 [main.params]
 icon = "fa-solid fa-crosshairs"
 
@@ -88,6 +88,105 @@ name = "Collections"
 url = "/collections/"
 title = ""
 weight = 5
-
 [main.params]
 icon = "fa-solid fa-grip"
+
+[[main]]
+identifier = "more"
+parent = ""
+pre = ""
+post = ""
+name = "More"
+title = "更多"
+weight = 1
+[main.params]
+icon = "fa-solid fa-hexagon-nodes"
+
+[[main]]
+identifier = "about"
+parent = "more"
+pre = ""
+post = ""
+name = "About"
+url = "/more/about"
+title = ""
+weight = 1
+[main.params]
+icon = "fa-solid fa-address-card"
+
+[[main]]
+identifier = "site"
+parent = "more"
+pre = ""
+post = ""
+name = "Site"
+url = "/more/site"
+title = ""
+weight = 2
+[main.params]
+icon = "fa-solid fa-cookie-bite"
+
+[[main]]
+identifier = "now"
+parent = "more"
+pre = ""
+post = ""
+name = "Now"
+url = "/more/now/"
+title = ""
+weight = 3
+
+[main.params]
+icon = "fa-brands fa-sith"
+
+[[main]]
+identifier = "links"
+parent = "more"
+pre = ""
+post = ""
+name = "Links"
+url = "/more/links/"
+title = ""
+weight = 4
+
+[main.params]
+icon = "fa-solid fa-link"
+
+[[main]]
+identifier = "recommend"
+parent = "more"
+pre = ""
+post = ""
+name = "Recommend"
+url = "/more/recommend/"
+title = ""
+weight = 5
+
+[main.params]
+icon = "fa-solid fa-hammer"
+
+[[main]]
+identifier = "why-blog"
+parent = "more"
+pre = ""
+post = ""
+name = "Why Blog"
+url = "/more/why-blog/"
+title = ""
+weight = 6
+
+[main.params]
+icon = "fa-solid fa-feather-pointed"
+
+[[main]]
+identifier = "why-hugo-fixit"
+parent = "more"
+pre = ""
+post = ""
+name = "Why Hugo Fixit"
+url = "/more/why-hugo-fixit/"
+title = ""
+weight = 7
+
+[main.params]
+icon = "fa-brands fa-ethereum"
