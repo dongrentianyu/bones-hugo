@@ -7,7 +7,7 @@
 # title = "unfinished"
 title = "title"
 # Hostname (and path) to the root
-baseURL = "https://example.org/"
+baseURL = "https://dongrentianyu.github.io/unfinished/"
 # theme list
 # theme = ["FixIt"] # enable in your site config file
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
