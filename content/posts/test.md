@@ -1,5 +1,8 @@
 ---
+weight: 1
 title: test
+featuredImage: "images/image.png"
+featuredImagePreview: "images/image.png"
 date: 2026-02-02
 tags:
   - hello
@@ -9,11 +12,14 @@ categories:
 collections:
   - test
   - 你好
+lightgallery: true
 ---
 
 Welcome to Hugo FixIt! This is your very first post.
 
 <!--more-->
+
+增加`weight: 1` 可用来固定住
 
 ## Documentation
 

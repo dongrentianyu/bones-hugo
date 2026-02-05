@@ -67,12 +67,12 @@ weight = 3
 icon = "fa-solid fa-tags"
 
 [[main]]
-identifier = "topic"
+identifier = "topics"
 parent = "classification"
 pre = ""
 post = ""
-name = "Topic"
-url = "/topic/"
+name = "Topics"
+url = "/topics/"
 title = ""
 weight = 4
 
