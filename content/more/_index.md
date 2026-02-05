@@ -4,4 +4,5 @@ layout: "taxonomy"
 cascade:
   params:
     type: posts
+titleIcon: fa-solid fa-hexagon-nodes
 ---

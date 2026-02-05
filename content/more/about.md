@@ -1,6 +1,8 @@
 ---
 title: 关于我
 date: 2026-02-02
+featuredImage: "/images/image.png"
+featuredImagePreview: "/images/image.png"
 ---
 
 ## 关于我，要写下的事情
