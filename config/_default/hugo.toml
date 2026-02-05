@@ -9,7 +9,6 @@ title = "title"
 # Hostname (and path) to the root
 baseURL = "https://dongrentianyu.github.io/unfinished/"
 # theme list
-theme = ["FixIt"]
 # theme = ["FixIt"] # enable in your site config file
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "zh-cn"
