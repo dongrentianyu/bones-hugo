@@ -1,6 +1,7 @@
 ---
 title: "专题"
 description: "我的知识体系索引"
+titleIcon: fa-solid fa-heart-circle-bolt
 layout: "taxonomy" # 告诉 Hugo 这是一个分类法列表页
 ---
 

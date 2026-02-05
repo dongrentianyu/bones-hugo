@@ -29,3 +29,11 @@ enableEmoji = true
 # if set, the MainSections method on the Site object returns the given sections,
 # otherwise it returns the section with the most pages.
 mainSections = ["posts","topic"]
+
+[module]
+
+[[module.imports]]
+path = "github.com/hugo-fixit/FixIt"
+
+[[module.imports]]
+path = "github.com/hugo-fixit/component-projects"
