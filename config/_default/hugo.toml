@@ -23,7 +23,8 @@ copyright = ""
 # whether to use robots.txt
 enableRobotsTXT = true
 # whether to use git commit log
-enableGitInfo = true
+# 算了，还是不展示了，不然感觉很麻烦
+enableGitInfo = false
 # whether to use emoji code
 enableEmoji = true
 # the main sections of a site

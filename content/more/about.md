@@ -1,16 +1,27 @@
 ---
-title: 关于我
+title: 马不前
+subtitle: 遗憾无法说，惊觉心一缩
+weight: 1
+summary: 我想说出关于我的一切，而我的一切只是让我说出。
 date: 2026-02-02
-featuredImage: "/images/image.png"
-featuredImagePreview: "/images/image.png"
+lastmod: 2026-02-06
+featuredImage: "/more/dead-poems.jpg"
+featuredImagePreview: "/more/dead-poems.jpg"
 ---
 
-## 关于我，要写下的事情
+## 说明
 
-但其它没什么事情可以写
+- 副标题来自周传雄《青花》中的一句歌词
+- 封面图来源于 B 站视频[审美积累"像诗，像死"](https://www.bilibili.com/video/BV1LpqzBhE8B)
 
-```lang {mode="mac", maxShownLines=5}
-code here
-description: 这是专题
-layout: "taxonomy"
-```
+## 关于我
+
+自称马不前,笔名源自韩愈《左迁至蓝关示侄孙湘》颈联，“云横秦岭家何在？雪拥蓝关马不前。”
+
+## 如何联系我
+
+本站没有设置评论组件。我的邮箱是`spectre-submarine@qq.com`，欢迎用邮箱来联系我。
+
+比起使用 QQ 或者微信这种即时通迅软件交流，我更喜欢用邮箱交流。我们可以真诚且轻松交流，不会因为无法及时回复对方消息或看不到对方及时回复的消息而焦虑。我曾经为此感到焦虑，但现在好多了，不过初步还是通过邮箱来交流吧。我也承认，只用文字进行交流也是有缺陷的。文字充满了可以拓展的虚伪。所以我给他人回信时，都会尽可能写得长一点。尽可能明确表达出我的想法。如果你看到了我给你回复了很长的一封信，请不要惊讶，这是我的风格。信息不会太多或太复杂。后期交流足够频繁时，也可选择其他方式。
+
+第一次来信时，可以的话请说明一下性别信息。某些特殊的经历导致我现在需要确认对方的性别信息。如果不愿意告知的话，会默认是男性。

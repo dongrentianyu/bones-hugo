@@ -9,8 +9,6 @@ topics: note-system
 summary:
 featuredImagePreview:
 featuredImage:
-password:
-message:
 ---
 
 <!--more-->
