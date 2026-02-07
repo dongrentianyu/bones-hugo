@@ -1,7 +1,7 @@
 ---
 title: 年终总结
 date: 2026-02-06
-subtitle: "这里有我的所有代码笔记"
+subtitle: "每年总结一点，一生就总结这些每年总结好了"
 url: "/columns/years-end/"
 collections:
 cascade:
