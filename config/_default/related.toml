@@ -3,7 +3,7 @@
 # See: https://gohugo.io/content-management/related-content/
 # -------------------------------------------------------------------------------------
 
-includeNewer = false
+includeNewer = true
 threshold = 80
 toLower = false
 

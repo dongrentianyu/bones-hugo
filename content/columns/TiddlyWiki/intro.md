@@ -1,9 +1,6 @@
 ---
 title: TiddlyWiki
 date: 2025-02-04
-tags:
-categories:
-collections: TiddlyWiki
 ---
 
 Welcome to Hugo FixIt! This is your very first post.

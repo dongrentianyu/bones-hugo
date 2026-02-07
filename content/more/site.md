@@ -14,6 +14,8 @@ featuredImagePreview: "/more/site.png"
 
 本站不是知识管理的项目，不会把简短的笔记放在这里。
 
+https://unfinished-wenai.vercel.app/
+
 ## 本站导航
 
 - 本站导航较为简单，只有两个导航栏
