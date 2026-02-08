@@ -5,6 +5,8 @@ featuredImage: "/more/site.png"
 featuredImagePreview: "/more/site.png"
 ---
 
+{{< link href="https://unfinished-wenai.vercel.app/" content="本站网址" card=true >}}
+
 ## 本站简介
 
 本站名称来源于 X JAPAN 的《unfinished》。域名后缀 WENAI 是我之前使用的。
@@ -21,8 +23,6 @@ lrc="/music/unfinished.lrc" />}}
 本站包含博客，知识库，文档，专栏等，内容上涉及书籍，电影，动画，游戏等，也有关于学习方法，笔记软件等相关文章。总之，我希望写下我值得去写的一切内容。
 
 本站不是知识管理的项目，不会把简短的笔记放在这里。
-
-https://unfinished-wenai.vercel.app/
 
 ## 本站导航
 
