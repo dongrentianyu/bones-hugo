@@ -4,7 +4,6 @@ subtitle: 遗憾无法说，惊觉心一缩
 weight: 1
 summary: 我想说出关于我的一切，而我的一切只是让我说出。
 date: 2026-02-02
-lastmod: 2026-02-06
 featuredImage: "/more/dead-poems.jpg"
 featuredImagePreview: "/more/dead-poems.jpg"
 ---

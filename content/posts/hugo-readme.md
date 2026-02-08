@@ -2,7 +2,6 @@
 title: Hugo Readme
 subtitle:
 date: 2026-02-04
-lastmod: 2026-02-07
 summary: Hugo FixIt 博客模板（Go）
 tags:
 categories:

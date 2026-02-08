@@ -1,9 +1,9 @@
 ---
-title: Movie
+title: Anime
 topics:
 cascade:
   params:
     type: posts
-    topics: movie
+    topics: anime
 description:
 ---

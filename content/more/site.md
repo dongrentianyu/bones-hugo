@@ -1,7 +1,6 @@
 ---
 title: 关于本站
 date: 2026-02-02
-lastmod: 2026-02-06
 featuredImage: "/more/site.png"
 featuredImagePreview: "/more/site.png"
 ---

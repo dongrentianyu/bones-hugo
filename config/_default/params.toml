@@ -30,7 +30,7 @@ capitalizeTitles = true
 withSiteTitle = true
 # FixIt 0.3.0 | NEW title delimiter when the site title is be added to the title of every page
 # 这个设置就是topic-game那一块，理论上来说没必要加上这个短横线
-titleDelimiter = "|"
+titleDelimiter = " "
 # FixIt 0.3.0 | NEW whether to add site subtitle to the title of index page
 # remember to set up your site subtitle by `params.header.subtitle.name`
 indexWithSubtitle = false
@@ -48,8 +48,8 @@ disableThemeInject = false
 # Author Configuration
 [author]
 name = "马不前"
-email = ""
-link = ""
+email = "spectre-submarine@qq.com"
+link = "https://unfinished-wenai.vercel.app/"
 avatar = "https://api.iconify.design/game-icons:dead-eye.svg"
 
 # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
@@ -818,7 +818,8 @@ fontawesome = true
 # 先隐藏吧，版权这类事情还是后面再说吧
 license = ''
 # whether to show link to Raw Markdown content of the post
-linkToMarkdown = true
+# 算了，没必要展示，虽然给自己用是很方便，但多了也占空间
+linkToMarkdown = false
 # FixIt 0.3.0 | NEW whether to show link to view source code of the post
 linkToSource = false
 # FixIt 0.3.0 | NEW whether to show link to edit the post
@@ -826,7 +827,7 @@ linkToEdit = false
 # FixIt 0.3.0 | NEW whether to show link to report issue for the post
 linkToReport = false
 # FixIt 0.3.20 | NEW whether to show link to view the post in VSCode
-linkToVscode = true
+linkToVscode = false
 # FixIt 0.3.10 | CHANGED Page style ["narrow", "normal", "wide", ...]
 pageStyle = "wide"
 # FixIt 0.2.17 | CHANGED Auto Bookmark Support

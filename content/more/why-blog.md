@@ -1,7 +1,6 @@
 ---
 title: 为什么写博客
 date: 2026-02-02
-lastmod: 2026-02-07
 weight: 1
 ---
 
